@@ -8,12 +8,30 @@ function Home() {
   return (
     <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
       <div className="headerContainer">
-        <h1> SAM  project  courses</h1>
+        <h1> My project  courses</h1>
         <p> hello world react app </p>
+        
         <Link to="/menu">
           <button> ORDER NOW </button>
         </Link>
       </div>
+
+      <div className="skills">
+         
+        <h1>My Skills</h1>
+  
+      <ul>
+        <li>Python</li>
+        <li>R</li>
+        <li>Machine Learning</li>
+        <li>Data Science</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      </div>
+      
+
     </div>
     
   );
